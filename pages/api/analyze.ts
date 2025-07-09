@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import formidable from 'formidable';
 import fs from 'fs';
-import { Configuration, OpenAIApi } from 'openai';
+import OpenAI from 'openai';
 
 export const config = {
   api: {
